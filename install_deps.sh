@@ -30,7 +30,9 @@ git clone https://github.com/jayrambhia/Install-OpenCV.git
 git clone https://github.com/shantnu/FaceDetect.git
 git clone https://github.com/crapwarelabs/cyclopsforensicator.git
 # need to update flags = cv2.cv.CV_HAAR_SCALE_IMAGE to flags = cv2.CASCADE_SCALE_IMAGE in face_detect.py for v3.0 compatibility.
-sudo ~/Install-OpenCV/Ubuntu/opencv_latest.sh
+cd ~/Install-OpenCV/Ubuntu
+pwd
+./opencv_latest.sh
 # python ~/face_detect.py frame121.jpg ~/haarcascade_frontalface_default.xml
 # python ~/face_detect1.py frame121.jpg ~/haarcascade_frontalface_default.xml
 # python ~/image2ocrtext.py frame200.jpg
